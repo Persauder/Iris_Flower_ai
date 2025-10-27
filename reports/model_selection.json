@@ -1,0 +1,29 @@
+[
+  {
+    "model": "KNN",
+    "best_params": {
+      "clf__n_neighbors": 3,
+      "clf__p": 2,
+      "clf__weights": "uniform"
+    },
+    "cv_best_score_f1_macro": 0.9665359477124185
+  },
+  {
+    "model": "SVM",
+    "best_params": {
+      "clf__C": 0.1,
+      "clf__gamma": "scale",
+      "clf__kernel": "linear"
+    },
+    "cv_best_score_f1_macro": 0.9749019607843138
+  },
+  {
+    "model": "RF",
+    "best_params": {
+      "clf__max_depth": null,
+      "clf__min_samples_split": 4,
+      "clf__n_estimators": 100
+    },
+    "cv_best_score_f1_macro": 0.9579707438530969
+  }
+]

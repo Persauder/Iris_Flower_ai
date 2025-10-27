@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+streamlit
+pillow
+# For image model (optional; CPU-only suggestion)
+torch
+torchvision
+torchaudio
