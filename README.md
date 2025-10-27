@@ -47,7 +47,7 @@ Model is saved to `models/iris_cnn.pth`.
 ## 4) Run the app (Streamlit)
 
 ```bash
-python streamlit run app.py
+python -m streamlit run app.py
 ```
 
 The app offers two tabs:
